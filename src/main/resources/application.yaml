@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: ${db.driver}
+    username: ${db.username}
+    password: ${db.password}
+    url: ${db.url}
+
+logging:
+  level:
+    org.springframework.web.filter.CommonsRequestLoggingFilter:  DEBUG
